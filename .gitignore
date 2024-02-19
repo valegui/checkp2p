@@ -5,3 +5,7 @@ bin
 *.lo
 *.o
 *.obj
+
+# Development folders
+.devcontainer
+.github
