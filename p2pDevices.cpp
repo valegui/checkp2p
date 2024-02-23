@@ -25,7 +25,7 @@ int main(int argc, char **argv){
         return 0;
     }
 
-    printf("Detected %d CUDA Capable devices", deviceCount);
+    printf("Detected %d CUDA Capable devices\n", deviceCount);
 
     int firstgpu = 0;
     for (int i = 1; i < deviceCount; i++){
